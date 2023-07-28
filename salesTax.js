@@ -57,6 +57,7 @@ const calculateSalesTax = function (salesData, taxRates) {
   return result;
 };
 
+
 console.log(calculateSalesTax(companySalesData, salesTaxRates));
 console.log(calculateSalesTax(companySalesData, salesTaxRates)[0]);
 console.log(calculateSalesTax(companySalesData, salesTaxRates)[1]);
